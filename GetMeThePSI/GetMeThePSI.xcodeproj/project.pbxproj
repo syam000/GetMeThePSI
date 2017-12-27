@@ -14,6 +14,10 @@
 		68E19AAB1FF28C310097BE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E19AA91FF28C310097BE1A /* LaunchScreen.storyboard */; };
 		68E19AB61FF28C310097BE1A /* GetMeThePSITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AB51FF28C310097BE1A /* GetMeThePSITests.swift */; };
 		68E19AC11FF28C310097BE1A /* GetMeThePSIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AC01FF28C310097BE1A /* GetMeThePSIUITests.swift */; };
+		68E19ACF1FF28DA80097BE1A /* PSIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19ACE1FF28DA80097BE1A /* PSIService.swift */; };
+		68E19AD11FF28E600097BE1A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD01FF28E600097BE1A /* Models.swift */; };
+		68E19AD51FF2A81B0097BE1A /* PSIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */; };
+		68E19AD71FF2A87B0097BE1A /* PSIService_Integration_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		68E19ABC1FF28C310097BE1A /* GetMeThePSIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetMeThePSIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E19AC01FF28C310097BE1A /* GetMeThePSIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMeThePSIUITests.swift; sourceTree = "<group>"; };
 		68E19AC21FF28C310097BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E19ACE1FF28DA80097BE1A /* PSIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PSIService.swift; path = Service/PSIService.swift; sourceTree = "<group>"; };
+		68E19AD01FF28E600097BE1A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIServiceTests.swift; sourceTree = "<group>"; };
+		68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIService_Integration_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 				68E19AA71FF28C310097BE1A /* Assets.xcassets */,
 				68E19AA91FF28C310097BE1A /* LaunchScreen.storyboard */,
 				68E19AAC1FF28C310097BE1A /* Info.plist */,
+				68E19ACE1FF28DA80097BE1A /* PSIService.swift */,
+				68E19AD01FF28E600097BE1A /* Models.swift */,
 			);
 			path = GetMeThePSI;
 			sourceTree = "<group>";
@@ -112,6 +122,8 @@
 			children = (
 				68E19AB51FF28C310097BE1A /* GetMeThePSITests.swift */,
 				68E19AB71FF28C310097BE1A /* Info.plist */,
+				68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */,
+				68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */,
 			);
 			path = GetMeThePSITests;
 			sourceTree = "<group>";
@@ -259,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E19ACF1FF28DA80097BE1A /* PSIService.swift in Sources */,
 				68E19AA31FF28C310097BE1A /* ViewController.swift in Sources */,
+				68E19AD11FF28E600097BE1A /* Models.swift in Sources */,
 				68E19AA11FF28C310097BE1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E19AD51FF2A81B0097BE1A /* PSIServiceTests.swift in Sources */,
 				68E19AB61FF28C310097BE1A /* GetMeThePSITests.swift in Sources */,
+				68E19AD71FF2A87B0097BE1A /* PSIService_Integration_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
