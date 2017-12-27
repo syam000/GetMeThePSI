@@ -18,6 +18,8 @@
 		68E19AD11FF28E600097BE1A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD01FF28E600097BE1A /* Models.swift */; };
 		68E19AD51FF2A81B0097BE1A /* PSIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */; };
 		68E19AD71FF2A87B0097BE1A /* PSIService_Integration_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */; };
+		68E19AD91FF3EFEB0097BE1A /* PSIResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E19AD81FF3EFEB0097BE1A /* PSIResponseTests.swift */; };
+		68E19ADB1FF3F3A60097BE1A /* samplePSIResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 68E19ADA1FF3F3A60097BE1A /* samplePSIResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		68E19AD01FF28E600097BE1A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Models/Models.swift; sourceTree = "<group>"; };
 		68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIServiceTests.swift; sourceTree = "<group>"; };
 		68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIService_Integration_Tests.swift; sourceTree = "<group>"; };
+		68E19AD81FF3EFEB0097BE1A /* PSIResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIResponseTests.swift; sourceTree = "<group>"; };
+		68E19ADA1FF3F3A60097BE1A /* samplePSIResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = samplePSIResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				68E19AB71FF28C310097BE1A /* Info.plist */,
 				68E19AD41FF2A81B0097BE1A /* PSIServiceTests.swift */,
 				68E19AD61FF2A87B0097BE1A /* PSIService_Integration_Tests.swift */,
+				68E19AD81FF3EFEB0097BE1A /* PSIResponseTests.swift */,
+				68E19ADA1FF3F3A60097BE1A /* samplePSIResponse.json */,
 			);
 			path = GetMeThePSITests;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E19ADB1FF3F3A60097BE1A /* samplePSIResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 				68E19AD51FF2A81B0097BE1A /* PSIServiceTests.swift in Sources */,
 				68E19AB61FF28C310097BE1A /* GetMeThePSITests.swift in Sources */,
 				68E19AD71FF2A87B0097BE1A /* PSIService_Integration_Tests.swift in Sources */,
+				68E19AD91FF3EFEB0097BE1A /* PSIResponseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

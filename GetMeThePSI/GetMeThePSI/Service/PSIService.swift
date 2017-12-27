@@ -108,7 +108,13 @@ class PSIService: NSObject {
         request.addValue(apiKey, forHTTPHeaderField: API_KEY_HEADER_FIELD)
         
         let task = session.dataTask(with: request) { (data, urlResponse, error) in
-            completion(data, error)
+            
+            if let _ = error {
+                completion(nil, error)
+            }
+            else {
+                completion(data, error)
+            }
         }
         task.resume()
     }
