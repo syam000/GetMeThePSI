@@ -8,38 +8,39 @@
 
 import UIKit
 
+
 struct  PSIRegion : Codable {
-    let name : String
-    let label_location : PSILocation
+    var name : String?
+    var label_location : PSILocation?
 }
 
 struct PSILocation : Codable {
-    let latitude : Double
-    let longitude : Double
+    var latitude : Double?
+    var longitude : Double?
 }
 
 struct PSIItem : Codable {
-    let timestamp : String
-    let readings : PSIReadings
+    var timestamp : String?
+    var readings : PSIReadings?
 }
 
 struct PSIReadings : Codable {
-    let o3_sub_index : Dictionary <String, Int>
-    let pm10_twenty_four_hourly : Dictionary <String, Int>
-    let pm10_sub_index : Dictionary <String, Int>
-    let co_sub_index : Dictionary <String, Int>
-    let pm25_twenty_four_hourly : Dictionary <String, Int>
-    let so2_sub_index : Dictionary <String, Int>
-    let co_eight_hour_max : Dictionary <String, Float>
-    let no2_one_hour_max : Dictionary <String, Int>
-    let so2_twenty_four_hourly : Dictionary <String, Int>
-    let pm25_sub_index : Dictionary <String, Int>
-    let psi_twenty_four_hourly : Dictionary <String, Int>
-    let o3_eight_hour_max : Dictionary <String, Int>
+    var o3_sub_index : Dictionary <String, Int>?
+    var pm10_twenty_four_hourly : Dictionary <String, Int>?
+    var pm10_sub_index : Dictionary <String, Int>?
+    var co_sub_index : Dictionary <String, Int>?
+    var pm25_twenty_four_hourly : Dictionary <String, Int>?
+    var so2_sub_index : Dictionary <String, Int>?
+    var co_eight_hour_max : Dictionary <String, Float>?
+    var no2_one_hour_max : Dictionary <String, Int>?
+    var so2_twenty_four_hourly : Dictionary <String, Int>?
+    var pm25_sub_index : Dictionary <String, Int>?
+    var psi_twenty_four_hourly : Dictionary <String, Int>?
+    var o3_eight_hour_max : Dictionary <String, Int>?
 }
 
 struct PSIResponse : Codable {
-    let region_metadata : [PSIRegion]
-    let items : [PSIItem]
+    var region_metadata : [PSIRegion]?
+    var items : [PSIItem]?
 }
 
